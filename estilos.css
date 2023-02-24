@@ -7,8 +7,9 @@
 head{
   width:100%;
   heigth:600px;
-  background-color: steelblue; 
+ 
 }
 body{
-margin:50
+  margin:50; 
+  background-color: steelblue; 
 }
