@@ -1,33 +1,47 @@
-<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<html >
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Rellena tu CV</title>
+  <style type="text/css">
+body {border:1px solid silver; border-collapse:collapse; padding:13px 80px; align="center"; }
 </head>
+  
 <body>
 <h3>Rellena tu CV</h3>
-<form action="/php/insertar_cv.php" method="post" enctype="multipart/form-data">
-Nombre <br />
-<input type="text" name="nombre" value="" size="20" maxlength="30" />
-<br />
-Apellidos <br />
-<input type="text" name="apellidos" value="" size="50" maxlength="80" />
-<br />
-Contraseña <br />
-<input type="password" name="contrasena" value="" maxlength="10" />
-<br />
-DNI <br />
-<input type="text" name="dni" value="" size="10" maxlength="9" />
-<br />
-Sexo <br />
-<input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre <br />
-<input type="radio" name="sexo" value="mujer" /> Mujer
-<br /><br />
-Incluir mi foto <input type="file" name="foto" />
-<br /><br />
-<input name="suscribir" type="checkbox" value="suscribir" checked="checked" /> Suscribirme al boletín de novedades
-<br /><br />
-<input type="submit" name="enviar" value="Guardar cambios" />
-<input type="reset" name="limpiar" value="Borrar los datos introducidos" />
+<form method="post" action="/php/insertar_cv.php" enctype="multipart/form-data">
+  
+      Nombre <br />
+      <input type="text" name="nombre" value="" size="20" maxlength="30" />
+      <br />
+      Apellidos <br />
+      <input type="text" name="apellidos" value="" size="50" maxlength="80" />
+      <br />
+      Contraseña <br />
+      <input type="password" name="contrasena" value="" maxlength="10" />
+      <br />
+      DNI <br />
+      <input type="text" name="dni" value="" size="10" maxlength="9" />
+      <br />
+      Sexo <br />
+      <input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre <br />
+      <input type="radio" name="sexo" value="mujer" /> Mujer
+      <br /><br />
+      Incluir mi foto <input type="file" name="foto" />
+      <br /><br />
+      <input name="suscribir" type="checkbox" value="suscribir" checked="checked" /> Suscribirme al boletín de novedades
+      <br /><br />
+      <input type="submit" name="enviar" value="Guardar cambios" />
+      <input type="reset" name="limpiar" value="Borrar los datos introducidos" />
 </form>
+  <p>
+      <a
+        href="https://meylinsore.github.io/Ejercicio9-16.github.io//"
+        title="Página principal de Mi Sitio"
+        hreflang="es"
+        type="text/html"
+        charset="UTF-8"
+        >Volver a la pagina principal</a
+      >
+    </p>
 </body>
 </html>
