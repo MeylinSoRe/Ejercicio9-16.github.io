@@ -39,4 +39,12 @@
 
       a:hover {
         text-decoration: underline;
+       
       }
+
+
+      .centrar-imagen {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+       }
